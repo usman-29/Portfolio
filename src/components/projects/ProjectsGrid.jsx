@@ -3,8 +3,12 @@ import { FiSearch } from 'react-icons/fi';
 import ProjectSingle from './ProjectSingle';
 import { ProjectsContext } from '../../context/ProjectsContext';
 import ProjectsFilter from './ProjectsFilter';
+import { useLocation } from 'react-router-dom';
 
 const ProjectsGrid = () => {
+
+	const location = useLocation();
+	const currentPath = location.pathname;
 	const {
 		projects,
 		searchProject,
@@ -14,6 +18,9 @@ const ProjectsGrid = () => {
 		setSelectProject,
 		selectProjectsByCategory,
 	} = useContext(ProjectsContext);
+
+	const displayedProjects =
+		currentPath === '/' ? projects.slice(0, 6) : projects;
 
 
 
@@ -116,7 +123,7 @@ const ProjectsGrid = () => {
 								link={project.link}
 							/>
 						))
-						: projects.slice(0, 6).map((project) => (
+						: displayedProjects.map((project) => (
 							<ProjectSingle
 								title={project.title}
 								category={project.category}
