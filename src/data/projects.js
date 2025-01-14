@@ -16,11 +16,6 @@ export const projectsData = [
 		category: 'AI',
 		img: LitterCam,
 		link: 'https://github.com/usman-29/LitterCam-AI',
-		ProjectHeader: {
-			title: 'Project Management UI - From Context',
-			publishDate: 'Jul 26, 2021',
-			tags: 'UI / Frontend',
-		},
 	},
 	{
 		id: 2,
@@ -39,7 +34,7 @@ export const projectsData = [
 	{
 		id: 4,
 		title: 'Project Management System',
-		category: 'web Application',
+		category: 'Web Application',
 		img: Project,
 		link: 'https://github.com/usman-29/Project-Management-MERN'
 	},
