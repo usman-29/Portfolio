@@ -8,6 +8,7 @@ import ecommerce from '../images/ecommerce.png';
 import Flight from '../images/genetic.jpg';
 import Expense from '../images/expensetrack.png';
 import Project from '../images/project-management.png';
+import ExpenseWeb from '../images/expense_web.png';
 
 export const projectsData = [
 	{
@@ -35,7 +36,7 @@ export const projectsData = [
 		id: 4,
 		title: 'Expense Tracker',
 		category: 'Web Application',
-		img: Project,
+		img: ExpenseWeb,
 		link: 'https://github.com/usman-29/Expense-Tracker-MERN'
 	},
 	{
