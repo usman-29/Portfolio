@@ -33,10 +33,10 @@ export const projectsData = [
 	},
 	{
 		id: 4,
-		title: 'Project Management System',
+		title: 'Expense Tracker',
 		category: 'Web Application',
 		img: Project,
-		link: 'https://github.com/usman-29/Project-Management-MERN'
+		link: 'https://github.com/usman-29/Expense-Tracker-MERN'
 	},
 	{
 		id: 5,
@@ -72,6 +72,13 @@ export const projectsData = [
 		category: 'Mobile Application',
 		img: Expense,
 		link: 'https://github.com/usman-29/Expenses-Tracker-Flutter'
+	},
+	{
+		id: 10,
+		title: 'Project Management System',
+		category: 'Web Application',
+		img: Project,
+		link: 'https://github.com/usman-29/Project-Management-MERN'
 	},
 
 ];
